@@ -10,6 +10,7 @@ gensim = "*"
 scikit-learn = "*"
 jupyter = "*"
 tqdm = "*"
+nltk = "*"
 
 [dev-packages]
 
