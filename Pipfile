@@ -11,6 +11,8 @@ scikit-learn = "*"
 jupyter = "*"
 tqdm = "*"
 nltk = "*"
+textacy = "*"
+pyldavis = "*"
 
 [dev-packages]
 
