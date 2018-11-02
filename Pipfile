@@ -13,6 +13,9 @@ tqdm = "*"
 nltk = "*"
 textacy = "*"
 pyldavis = "*"
+matplotlib = "*"
+bokeh = "*"
+seaborn = "*"
 
 [dev-packages]
 
