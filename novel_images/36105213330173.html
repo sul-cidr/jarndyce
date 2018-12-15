@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="20cc53c9-3e78-47a8-b754-c4d4c32c4344"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="107205">
+          {"fc74f29d-15c6-4a8a-8da9-f2701f59d0a1":{"roots":{"references":[{"attributes":{},"id":"107108","type":"LinearScale"},{"attributes":{},"id":"107122","type":"SaveTool"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"proportion"},"width":{"value":0.9},"x":{"field":"topic"}},"id":"107137","type":"VBar"},{"attributes":{},"id":"107111","type":"CategoricalTicker"},{"attributes":{"callback":null,"renderers":"auto","tooltips":[["proportion","@proportion"],["words","@words"]]},"id":"107125","type":"HoverTool"},{"attributes":{"plot":null,"text":"Better late than never"},"id":"107099","type":"Title"},{"attributes":{},"id":"107115","type":"BasicTicker"},{"attributes":{},"id":"107120","type":"WheelZoomTool"},{"attributes":{},"id":"107124","type":"HelpTool"},{"attributes":{"callback":null,"factors":["topic-14","topic-15","topic-36","topic-48","topic-52"]},"id":"107102","type":"FactorRange"},{"attributes":{},"id":"107142","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"plot":{"id":"107100","subtype":"Figure","type":"Plot"},"ticker":{"id":"107115","type":"BasicTicker"}},"id":"107118","type":"Grid"},{"attributes":{"below":[{"id":"107110","type":"CategoricalAxis"}],"left":[{"id":"107114","type":"LinearAxis"}],"plot_height":500,"plot_width":1000,"renderers":[{"id":"107110","type":"CategoricalAxis"},{"id":"107113","type":"Grid"},{"id":"107114","type":"LinearAxis"},{"id":"107118","type":"Grid"},{"id":"107128","type":"BoxAnnotation"},{"id":"107139","type":"GlyphRenderer"}],"title":{"id":"107099","type":"Title"},"toolbar":{"id":"107126","type":"Toolbar"},"x_range":{"id":"107102","type":"FactorRange"},"x_scale":{"id":"107106","type":"CategoricalScale"},"y_range":{"id":"107104","type":"DataRange1d"},"y_scale":{"id":"107108","type":"LinearScale"}},"id":"107100","subtype":"Figure","type":"Plot"},{"attributes":{"overlay":{"id":"107128","type":"BoxAnnotation"}},"id":"107121","type":"BoxZoomTool"},{"attributes":{},"id":"107106","type":"CategoricalScale"},{"attributes":{"callback":null,"data":{"index":[0,1,2,3,4],"proportion":{"__ndarray__":"////Hz84gT8AAACgIYmEPwAAAODCsNA/AAAAwEcHgT8AAAAAgcTmPw==","dtype":"float64","shape":[5]},"topic":["topic-14","topic-15","topic-36","topic-48","topic-52"],"words":[" charlotte english england day russian days night british russia french years morning german hour hours second th london war snap"," derry murrough como somerville day clydesdale carnwath biggar kilnaflesk lynch red prentice abdslem years maut lanark night hose galway torrens"," day years augusta days night fairfax yorkshire morning hour england english master evening hours london minutes riverswood year ago months"," irish ireland dublin english monmouth protestant england night och years church court catholic irishman day castle london leinster protestants connaught"," day years morning london night days evening hour week minutes hours year second months afternoon ago morrow street pounds weeks"]},"selected":{"id":"107147","type":"Selection"},"selection_policy":{"id":"107146","type":"UnionRenderers"}},"id":"107098","type":"ColumnDataSource"},{"attributes":{},"id":"107123","type":"ResetTool"},{"attributes":{"plot":{"id":"107100","subtype":"Figure","type":"Plot"},"ticker":{"id":"107111","type":"CategoricalTicker"}},"id":"107113","type":"Grid"},{"attributes":{"formatter":{"id":"107142","type":"CategoricalTickFormatter"},"plot":{"id":"107100","subtype":"Figure","type":"Plot"},"ticker":{"id":"107111","type":"CategoricalTicker"}},"id":"107110","type":"CategoricalAxis"},{"attributes":{},"id":"107119","type":"PanTool"},{"attributes":{"source":{"id":"107098","type":"ColumnDataSource"}},"id":"107140","type":"CDSView"},{"attributes":{},"id":"107144","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"107144","type":"BasicTickFormatter"},"plot":{"id":"107100","subtype":"Figure","type":"Plot"},"ticker":{"id":"107115","type":"BasicTicker"}},"id":"107114","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"107128","type":"BoxAnnotation"},{"attributes":{},"id":"107146","type":"UnionRenderers"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"107119","type":"PanTool"},{"id":"107120","type":"WheelZoomTool"},{"id":"107121","type":"BoxZoomTool"},{"id":"107122","type":"SaveTool"},{"id":"107123","type":"ResetTool"},{"id":"107124","type":"HelpTool"},{"id":"107125","type":"HoverTool"}]},"id":"107126","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"proportion"},"width":{"value":0.9},"x":{"field":"topic"}},"id":"107138","type":"VBar"},{"attributes":{},"id":"107147","type":"Selection"},{"attributes":{"callback":null},"id":"107104","type":"DataRange1d"},{"attributes":{"data_source":{"id":"107098","type":"ColumnDataSource"},"glyph":{"id":"107137","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"107138","type":"VBar"},"selection_glyph":null,"view":{"id":"107140","type":"CDSView"}},"id":"107139","type":"GlyphRenderer"}],"root_ids":["107100"]},"title":"Bokeh Application","version":"1.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('107205').textContent;
+                  var render_items = [{"docid":"fc74f29d-15c6-4a8a-8da9-f2701f59d0a1","roots":{"107100":"20cc53c9-3e78-47a8-b754-c4d4c32c4344"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="62fb6ab6-eeb3-43ef-accd-0cfdbdd41821"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="112173">
+          {"d0eeabf4-faab-4ab7-98c8-713f4357d23a":{"roots":{"references":[{"attributes":{"callback":null,"renderers":"auto","tooltips":[["proportion","@proportion"],["words","@words"]]},"id":"112093","type":"HoverTool"},{"attributes":{},"id":"112115","type":"Selection"},{"attributes":{"callback":null},"id":"112072","type":"DataRange1d"},{"attributes":{},"id":"112114","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"proportion"},"width":{"value":0.9},"x":{"field":"topic"}},"id":"112105","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"112096","type":"BoxAnnotation"},{"attributes":{},"id":"112083","type":"BasicTicker"},{"attributes":{"below":[{"id":"112078","type":"CategoricalAxis"}],"left":[{"id":"112082","type":"LinearAxis"}],"plot_height":500,"plot_width":1000,"renderers":[{"id":"112078","type":"CategoricalAxis"},{"id":"112081","type":"Grid"},{"id":"112082","type":"LinearAxis"},{"id":"112086","type":"Grid"},{"id":"112096","type":"BoxAnnotation"},{"id":"112107","type":"GlyphRenderer"}],"title":{"id":"112067","type":"Title"},"toolbar":{"id":"112094","type":"Toolbar"},"x_range":{"id":"112070","type":"FactorRange"},"x_scale":{"id":"112074","type":"CategoricalScale"},"y_range":{"id":"112072","type":"DataRange1d"},"y_scale":{"id":"112076","type":"LinearScale"}},"id":"112068","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":"A tragedy in marble"},"id":"112067","type":"Title"},{"attributes":{},"id":"112079","type":"CategoricalTicker"},{"attributes":{"overlay":{"id":"112096","type":"BoxAnnotation"}},"id":"112089","type":"BoxZoomTool"},{"attributes":{},"id":"112110","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"112110","type":"CategoricalTickFormatter"},"plot":{"id":"112068","subtype":"Figure","type":"Plot"},"ticker":{"id":"112079","type":"CategoricalTicker"}},"id":"112078","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"112066","type":"ColumnDataSource"},"glyph":{"id":"112105","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"112106","type":"VBar"},"selection_glyph":null,"view":{"id":"112108","type":"CDSView"}},"id":"112107","type":"GlyphRenderer"},{"attributes":{"source":{"id":"112066","type":"ColumnDataSource"}},"id":"112108","type":"CDSView"},{"attributes":{},"id":"112092","type":"HelpTool"},{"attributes":{},"id":"112091","type":"ResetTool"},{"attributes":{"callback":null,"factors":["topic-0","topic-39"]},"id":"112070","type":"FactorRange"},{"attributes":{"callback":null,"data":{"index":[0,1],"proportion":{"__ndarray__":"////P7Kj7z8AAABA9ZaGPw==","dtype":"float64","shape":[2]},"topic":["topic-0","topic-39"],"words":[" vo crown edition day illustrations english years london days night post second life vols new fcp notes england stories morning"," greek antonio day greeks cottage constantinople turkish rome christian years english greece turks days burford arab roman turk europe second"]},"selected":{"id":"112115","type":"Selection"},"selection_policy":{"id":"112114","type":"UnionRenderers"}},"id":"112066","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"112087","type":"PanTool"},{"id":"112088","type":"WheelZoomTool"},{"id":"112089","type":"BoxZoomTool"},{"id":"112090","type":"SaveTool"},{"id":"112091","type":"ResetTool"},{"id":"112092","type":"HelpTool"},{"id":"112093","type":"HoverTool"}]},"id":"112094","type":"Toolbar"},{"attributes":{},"id":"112074","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"112112","type":"BasicTickFormatter"},"plot":{"id":"112068","subtype":"Figure","type":"Plot"},"ticker":{"id":"112083","type":"BasicTicker"}},"id":"112082","type":"LinearAxis"},{"attributes":{},"id":"112087","type":"PanTool"},{"attributes":{},"id":"112090","type":"SaveTool"},{"attributes":{"dimension":1,"plot":{"id":"112068","subtype":"Figure","type":"Plot"},"ticker":{"id":"112083","type":"BasicTicker"}},"id":"112086","type":"Grid"},{"attributes":{},"id":"112088","type":"WheelZoomTool"},{"attributes":{},"id":"112112","type":"BasicTickFormatter"},{"attributes":{},"id":"112076","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"proportion"},"width":{"value":0.9},"x":{"field":"topic"}},"id":"112106","type":"VBar"},{"attributes":{"plot":{"id":"112068","subtype":"Figure","type":"Plot"},"ticker":{"id":"112079","type":"CategoricalTicker"}},"id":"112081","type":"Grid"}],"root_ids":["112068"]},"title":"Bokeh Application","version":"1.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('112173').textContent;
+                  var render_items = [{"docid":"d0eeabf4-faab-4ab7-98c8-713f4357d23a","roots":{"112068":"62fb6ab6-eeb3-43ef-accd-0cfdbdd41821"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
